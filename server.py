@@ -25,21 +25,7 @@ def handleClient():
 
 
 
-def recvMessage(player_socket):
-    # global CLIENTS
-    # global gameOver
-
-    # while True:
-    #     try:
-    #         message = player_socket.recv(2048).decode()
-    #         if(message):
-    #             for cName in CLIENTS:
-    #                 cSocket = CLIENTS[cName]["player_socket"]
-    #                 if('wins the game.' in message):
-    #                     gameOver = True
-    #                 cSocket.send(message.encode())
-    #     except:
-    #         pass
+def recvMessage():
     pass
 
 
